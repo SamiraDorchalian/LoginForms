@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginForm-1</title>
+    <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+    <div class="modal-wrap">
+        <div class="modal-header"><span class="is-active"></span><span></span><span></span></div>
+        <div class="modal-bodies">
+            <div class="modal-body modal-body-step-1 is-showing ">
+                <div class="title">Step 1</div>
+                <div class="description">Hello there, Let's play a game.</div>
+                <form>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <div class="text-center">
+                        <div class="button">Start</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-body modal-body-step-2 ">
+                <div class="title">Step 2</div>
+                <div class="description">Would you rather</div>
+                <form>
+                    <label>
+                        <input type="radio" name="radio"/>Would you rather
+                    </label>
+                    <label>
+                        <input type="radio" name="radio" id="radio2"/>live 10 lives that last 100 years each?
+                    </label>
+                    <div class="text-center fade-in ">
+                        <div class="button">Next</div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-body modal-body-step-3">
+                <div class="title">Step 3</div>
+                <div class="description">Check your email for the game results.</div>
+                <div class="text-center">
+                    <div class="button">Done !</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <div class="rerun-button">ReRun</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+    integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
