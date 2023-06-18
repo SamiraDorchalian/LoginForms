@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Jost", sans-serif;
+    background-color: #caf0f8;
+    /* background: linear-gradient(to bottom, 023e8a, 0077b6,0096c7); */
+}
+.main{
+    width: 350px;
+    height: 500px;
+    background: #90e0ef;
+    overflow: hidden;
+    background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38")no-repeat center/ cover;
+    border-radius: 10px;
+    box-shadow: 7px 6px 16px 1px rgba(0,0,0,0.85);
+    -webkit-box-shadow: 7px 6px 16px 1px rgba(0.1,0,0,0.15);
+    -moz-box-shadow: 7px 6px 16px 1px rgba(0.1,0,0,0.85);
+}
+#chk{
+    display: none;
+}
+.singup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+label{
+    color: #0096c7;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+input{
+    width: 60%;
+    height: 20px;
+    background: #ade8f4;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow:3px 6px 10px 1px rgba(0,0,0,0.85);
+    -webkit-box-shadow: 3px 6px 10px 1px rgba(0.1,0,0,0.15);
+    -moz-box-shadow: 3px 6px 10px 1px rgba(0.1,0,0,0.85);
+}
+button{
+    width: 120px;
+    height: 50px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #ade8f4;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow:3px 6px 10px 1px rgba(0,0,0,0.85);
+    -webkit-box-shadow: 3px 6px 10px 1px rgba(0.1,0,0,0.15);
+    -moz-box-shadow: 3px 6px 10px 1px rgba(0.1,0,0,0.85);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+button:hover{
+    background: #00b4d8;
+}
+.login{
+    height: 460px;
+    background: #a0d6e0;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: 0.8s ease-in-out;
+}
+.login label{
+    color: #0096c7;
+    transform: scale(0.6);
+}
+#chk:checked ~ .login{
+    transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+    transform: scale(1);
+}
+#chk:checked ~ .singup label{
+    transform: scale(0.6);
+}
