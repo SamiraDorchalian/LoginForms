@@ -6,6 +6,7 @@ $('.button').click(function(){
     if (stepIndex === 0 || stepIndex === 1){step1($step , $pag)}
     else{step3($step , $pag) ;}
 });
+
 function step1($step , $pag){
     console.log('step1');
     $step.addClass('animate-out');
@@ -28,6 +29,7 @@ function step3($step , $pag){
         $('.rerun-button').css('display', 'inline-block');
     }, 300);
 }
+
 $('.rerun-button').click(function(){
     $('.modal-wrap').removeClass('animate-up')
         .find('.modal-body')
