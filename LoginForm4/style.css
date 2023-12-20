@@ -1,200 +1,158 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Raleway, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
 }
-body{
-    background: linear-gradient(90deg, #6a040f, #9d0208);
+body {
+  background: linear-gradient(50deg, rgba(255, 185, 8, 0.671), #9d0208);
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
-.screen{
-    background: linear-gradient(90deg,#ca6702,#dc2f02);
-    position: relative;
-    height: 540px;
-    width: 540px;
-    border-radius: 108px 64px 10px 64px;
-    -webkit-border-radius: 108px 64px 108px 64px;
-    -moz-border-radius: 108px 64px 108px 64px;
-    /* border: 6px ridge rgba(129,126,172,0.85); */
+.screen {
+  background: linear-gradient(90deg, #ca6702, #dc2f02);
+  position: relative;
+  height: 540px;
+  width: 540px;
+  border-radius: 108px 64px 10px 64px;
+  -webkit-border-radius: 108px 64px 108px 64px;
+  -moz-border-radius: 108px 64px 108px 64px;
 }
-.screen__content{
-    z-index: 1;
-    position: relative;
-    height: 540px;
-    width: 540px;
-    border-radius: 108px 64px 108px 64px;
-    -webkit-border-radius: 108px 64px 108px 64px;
-    -moz-border-radius: 108px 64px 108px 64px;
-    /* border: 6px ridge rgba(129,126,172,0.85); */
+.screen__content {
+  z-index: 1;
+  position: relative;
+  height: 540px;
+  width: 540px;
+  border-radius: 108px 64px 108px 64px;
+  -webkit-border-radius: 108px 64px 108px 64px;
+  -moz-border-radius: 108px 64px 108px 64px;
 }
-.screen__background{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    border-radius: 108px 64px 108px 64px;
-    -webkit-border-radius: 108px 64px 108px 64px;
-    -moz-border-radius: 108px 64px 108px 64px;
-    border: 6px ridge #370617;
+.screen__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 108px 64px 108px 64px;
+  -webkit-border-radius: 108px 64px 108px 64px;
+  -moz-border-radius: 108px 64px 108px 64px;
+  border: 6px ridge #370617;
 }
-.screen__background__shape{
-    transform: rotate(45deg);
-    position: absolute;
+.screen__background__shape {
+  transform: rotate(45deg);
+  position: absolute;
 }
-.screen__background__shape1{
-    height: 450px;
-    width: 300px;
-    background: #e85d04;
-    top: 20px;
-    bottom: 20px;
-    right: 120px;
-    border-radius: 72px 72px 72px 72px;
-    box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
-    -webkit-box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
-    -moz-box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
+.screen__background__shape1 {
+  height: 350px;
+  width: 200px;
+  background: #9a031e;
+  top: 30px;
+  right: 120px;
+  border-radius: 72px 72px 72px 72px;
+  box-shadow: -11px -5px 32px 3px rgba(214, 130, 60, 0.6);
+  -webkit-box-shadow: -11px -5px 32px 3px rgba(214, 130, 60, 0.6);
+  -moz-box-shadow: -11px -5px 32px 3px rgba(214, 130, 60, 0.6);
 }
-.screen__background__shape2{
-    height: 200px;
-    width: 200px;
-    margin: 20px 20px 80px 80px;
-    z-index: 1;
-    background: #f48c06;
-    top: 80px;
-    /* right: 30px; */
-    border-radius: 22px;
-    box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
-    -webkit-box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
-    -moz-box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
+.login {
+  width: 320px;
+  pad: 30px;
+  padding-top: 156px;
 }
-.screen__background__shape3{
-    height: 200px;
-    width: 220px;
-    z-index: 1;
-    background: linear-gradient(270deg, #faa307, #ca6702);
-    bottom: 50px;
-    right: 50px;
-    border-radius: 32px;
-    box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
-    -webkit-box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
-    -moz-box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
+.login__field {
+  padding: 20px 30px;
+  position: relative;
 }
-.screen__background__shape4{
-    height: 350px;
-    width: 150px;
-    background: #ffba08;
-    top: 20px;
-    right: 100px;
-    z-index: 1;
-    border-radius: 40px;
-    box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
-    -webkit-box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
-    -moz-box-shadow: -11px -5px 32px 3px rgba(214,130,60,0.6);
+.login__icon {
+  position: absolute;
+  top: 40px;
+  padding-left: 20px;
+  padding-right: 50%;
+  color: #370617;
 }
-.login{
-    width: 320px;
-    pad: 30px;
-    padding-top: 156px;
-}
-.login__field{
-    padding: 20px 30px;
-    position: relative;
-}
-.login__icon{
-    position: absolute;
-    top: 30px;
-    padding-left: 10px;
-    padding-right: 50%;
-    color: #370617;
-}
-.login__input{
-    border: none;
-    border-bottom: 2px solid #9a031e;
-    box-shadow: 2px 2px 2px 2px #fcbf49;
-    border-radius: 108px 64px 108px 64px;
-    -webkit-border-radius: 108px 64px 108px 64px;
-    -moz-border-radius: 108px 64px 108px 64px;
-    background: none;
-    padding: 10px;
-    padding-left: 24px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    width: 75%;
-    transition: 0.2s;
+.login__input {
+  border: none;
+  border-bottom: 2px solid #9a031e;
+  border-radius: 18px 64px 18px 64px;
+  -webkit-border-radius: 18px 64px 18px 64px;
+  -moz-border-radius: 18px 64px 18px 64px;
+  background: rgba(202, 102, 2, 0.747);
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  width: 100%;
+  transition: 0.2s;
 }
 .login__input:active,
 .login__input:focus,
-.login__input:hover{
-    outline: none;
-    border-bottom-color: #9a031e;
+.login__input:hover {
+  outline: none;
+  border-bottom-color: #9a031e;
 }
-.login__submit{
-    background: #9a031e;
-    font-size: 14px;
-    margin-top: 30px;
-    margin-left: 20px;
-    padding: 16px 20px;
-    border-radius: 26px;
-    border: 1px solid #dc2f02;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    color: #ffba08;
-    box-shadow: 0px 2px 2px #fcbf49;
-    cursor: pointer;
-    transition: 0.2s;
+.login__submit {
+  background: #9a031e;
+  font-size: 14px;
+  margin-top: 85px;
+  margin-left: 30px;
+  padding: 25px 30px;
+  border-radius: 26px;
+  border: 1px solid #dc2f02;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  color: #ffba08;
+  box-shadow: 0px 2px 2px #fcbf49;
+  cursor: pointer;
+  transition: 0.2s;
 }
 .login__submit:active,
 .login__submit:focus,
-.login__submit:hover{
-    border-color: #ffba08;
-    outline: none;
+.login__submit:hover {
+  border-color: #ffba08;
+  outline: none;
 }
-.button__icon{
-    font-size: 24px;
-    margin-left: auto;
-    color: #ffba08;
+.button__icon {
+  font-size: 35px;
+  margin-left: auto;
+  color: #ffba08;
 }
-.social-login{
-    position: absolute;
-    height: 140px;
-    width: 160px;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    bottom: 5px;
-    margin-right: 20px;
-    right: 0px;
-    color: #faa307;
+.social-login {
+  position: absolute;
+  height: 140px;
+  width: 160px;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  bottom: 5px;
+  margin-right: 20px;
+  right: 0px;
+  color: #9a031e;
 }
-.social-icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.social-login__icon{
-    padding: 30px 20px;
-    color: #e85d04;
-    height: 20px;
-    width: 20px;
-    text-decoration: none;
-    text-shadow: 0px 0px 8px #9d0208;
+.social-login__icon {
+  padding: 30px 20px;
+  color: #9d0208;
+  height: 30px;
+  width: 30px;
+  text-decoration: none;
+  text-shadow: 0px 0px 8px #9d0208;
 }
-.social-login__icon:hover{
-    transform: scale(1.5);
+.social-login__icon:hover {
+  transform: scale(1.5);
 }
