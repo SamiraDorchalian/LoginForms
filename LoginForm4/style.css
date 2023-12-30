@@ -7,7 +7,7 @@
   font-family: Raleway, sans-serif;
 }
 body {
-  background: linear-gradient(50deg, rgba(255, 185, 8, 0.671), #9d0208);
+  background: linear-gradient(45deg, rgba(255, 185, 8, 0.671), #9d0208);
 }
 .container {
   display: flex;
@@ -16,22 +16,18 @@ body {
   min-height: 100vh;
 }
 .screen {
-  background: linear-gradient(90deg, #ca6702, #dc2f02);
+  background: linear-gradient(90deg, #ca6702, #a04e3931);
   position: relative;
-  height: 540px;
-  width: 540px;
+  height: 450px;
+  width: 450px;
   border-radius: 108px 64px 10px 64px;
-  -webkit-border-radius: 108px 64px 108px 64px;
-  -moz-border-radius: 108px 64px 108px 64px;
 }
 .screen__content {
-  z-index: 1;
+  z-index: 2;
   position: relative;
-  height: 540px;
-  width: 540px;
-  border-radius: 108px 64px 108px 64px;
-  -webkit-border-radius: 108px 64px 108px 64px;
-  -moz-border-radius: 108px 64px 108px 64px;
+  height: 450px;
+  width: 450px;
+  border-radius: 108px 64px 10px 64px;
 }
 .screen__background {
   position: absolute;
@@ -40,30 +36,25 @@ body {
   right: 0;
   bottom: 0;
   z-index: 0;
-  border-radius: 108px 64px 108px 64px;
-  -webkit-border-radius: 108px 64px 108px 64px;
-  -moz-border-radius: 108px 64px 108px 64px;
+  border-radius: 108px 64px 10px 64px;
   border: 6px ridge #370617;
 }
 .screen__background__shape {
-  transform: rotate(45deg);
+  transform: rotate(40deg);
   position: absolute;
 }
 .screen__background__shape1 {
   height: 350px;
   width: 200px;
-  background: #9a031e;
+  background: #9a031f8c;
   top: 30px;
   right: 120px;
   border-radius: 72px 72px 72px 72px;
-  box-shadow: -11px -5px 32px 3px rgba(214, 130, 60, 0.6);
-  -webkit-box-shadow: -11px -5px 32px 3px rgba(214, 130, 60, 0.6);
-  -moz-box-shadow: -11px -5px 32px 3px rgba(214, 130, 60, 0.6);
+  box-shadow: -20px -15px 10px 12px rgba(214, 130, 60, 0.6);
 }
 .login {
   width: 320px;
-  pad: 30px;
-  padding-top: 156px;
+  padding-top: 55px;
 }
 .login__field {
   padding: 20px 30px;
@@ -72,23 +63,21 @@ body {
 .login__icon {
   position: absolute;
   top: 40px;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-right: 50%;
   color: #370617;
 }
 .login__input {
   border: none;
-  border-bottom: 2px solid #9a031e;
+  border-bottom: 2px solid #9a031f96;
   border-radius: 18px 64px 18px 64px;
-  -webkit-border-radius: 18px 64px 18px 64px;
-  -moz-border-radius: 18px 64px 18px 64px;
-  background: rgba(202, 102, 2, 0.747);
-  padding: 20px;
+  background: #e98725be;
+  padding: 25px;
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  width: 100%;
+  font-weight: 800;
+  width: 130%;
   transition: 0.2s;
 }
 .login__input:active,
@@ -98,20 +87,20 @@ body {
   border-bottom-color: #9a031e;
 }
 .login__submit {
-  background: #9a031e;
+  background: #9a031fc9;
   font-size: 14px;
-  margin-top: 85px;
-  margin-left: 30px;
+  margin-top: 50px;
+  margin-left: 35px;
   padding: 25px 30px;
   border-radius: 26px;
-  border: 1px solid #dc2f02;
+  border: 1px solid #dc2e02c4;
   text-transform: uppercase;
   font-weight: 900;
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 80px;
-  color: #ffba08;
+  width: 80%;
+  height: 75px;
+  color: #ffb908c7;
   box-shadow: 0px 2px 2px #fcbf49;
   cursor: pointer;
   transition: 0.2s;
@@ -129,16 +118,16 @@ body {
 }
 .social-login {
   position: absolute;
-  height: 140px;
-  width: 160px;
+  height: 120px;
+  width: 120px;
   align-items: center;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
   bottom: 5px;
-  margin-right: 20px;
+  margin-right: 30px;
   right: 0px;
-  color: #9a031e;
+  color: #9a031fb9;
 }
 .social-icons {
   display: flex;
@@ -146,12 +135,12 @@ body {
   justify-content: center;
 }
 .social-login__icon {
-  padding: 30px 20px;
-  color: #9d0208;
-  height: 30px;
-  width: 30px;
+  padding: 15px 15px;
+  color: #9d0207bb;
+  height: 20px;
+  width: 20px;
   text-decoration: none;
-  text-shadow: 0px 0px 8px #9d0208;
+  text-shadow: 0px 0px 8px #9d0207e3;
 }
 .social-login__icon:hover {
   transform: scale(1.5);
