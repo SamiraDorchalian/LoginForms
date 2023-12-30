@@ -1,117 +1,112 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #603808;
-    background: #ffedd8;
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #603808;
+  background: #ffedd8;
 }
-.login-div{
-    width: 400px;
-    height: 550px;
-    padding: 60px 35px 35px 35px;
-    border-radius: 30px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    background-color: #f3d5b5;
-    box-shadow: 13px 13px 20px #e7bc91,
-    -13px -13px 20px #d4a276;
+.login-div {
+  width: 400px;
+  height: 550px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #f3d5b5;
+  box-shadow: 5px 5px 8px #e7bc91, -5px -5px 8px #d4a276;
 }
-.logo{
-    background: url("logo.png") center;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: -30px auto;
-    box-shadow: 0px 0px 2px #a47148,
-    0px 0px 0px 5px #ffedd8,
-    8px 8px 15px #f3d5b5,
+.logo {
+  background: url("logo.png") center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: -30px auto;
+  box-shadow: 0px 0px 2px #a47148, 0px 0px 0px 5px #ffedd8, 8px 8px 15px #f3d5b5,
     -8px -8px 15px #d4a276;
 }
-.title{
-    text-align: center;
-    font-size: 28px;
-    padding-top: 30px;
-    margin-top: 30px;
-    letter-spacing: 0.1px;
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 30px;
+  margin-top: 30px;
+  letter-spacing: 0.1px;
 }
-.sub-title{
-    text-align: center;
-    font-size: 15px;
-    padding-top: 7px;
-    letter-spacing: 3px;
+.sub-title {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 3px;
 }
-.fields{
-    width: 100%;
-    padding: 75px 5px 5px 5px;
+.fields {
+  width: 100%;
+  padding: 75px 5px 5px 5px;
 }
-.fields svg{
-    height: 22px;
-    margin: 0 10px -3px 25px;
+.fields svg {
+  height: 22px;
+  margin: 0 10px -3px 25px;
 }
-.fields input{
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 18px;
-    color: #865a23;
-    padding: 8px 8px 8px 8px;
+.fields input {
+  border: none;
+  outline: none;
+  background-color: #ffedd8;
+  font-size: 18px;
+  color: #865a23;
+  padding: 8px 8px 28px 8px;
 }
-.username, .password{
-    border-radius: 10px;
-    z-index: 1;
-    margin: 0px 0px -20px 0px;
-    box-shadow: inset 8px 8px 8px #f3d5b5,
-    inset -2px -2px 8px #bc8a5f;
+.user-input,
+.pass-input {
+  border-radius: 10px;
+  z-index: 1;
+  margin: 0px 0px -30px 0px;
+  box-shadow: inset 8px 8px 8px #f3d5b5, inset -2px -2px 8px #bc8a5f;
 }
-.username-msg, .password-msg{
-    font-size: 17px;
-    color: #a47148;
-    display: inline-block;
-    margin: 30px 20px 25px 10px;
-    font-weight: 100;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 25px;
-    padding: 0px 0px 0px 50px;
+.username-msg,
+.password-msg {
+  font-size: 17px;
+  color: #a47148;
+  display: inline-block;
+  margin: 30px 20px 25px 65px;
+  font-weight: 100;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 25px;
 }
-.signin-button{
-    outline: none;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffedd8;
-    text-align: center;
-    background-color: #8b5e34;
-    box-shadow: 3px 3px 8px #f3d5b5,
-    -3px -3px 8px #d4a276;
-    transition: all 0.51s;
+.signin-button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffedd8;
+  text-align: center;
+  background-color: #8b5e34;
+  box-shadow: 3px 3px 8px #f3d5b5, -3px -3px 8px #d4a276;
+  transition: all 0.51s;
 }
-.signin-button:hover{
-    background-color: #bc8a5f;
+.signin-button:hover {
+  background-color: #bc8a5f;
 }
-.signin-status{
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    padding-top: 20px;
-    font-size: 20px;
-    color: #cb997e;
-    font-weight: 700;
-    transition: .2s linear;
-    text-shadow: 2px -2px 5px #d4a276;
+.signin-status {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #cb997e;
+  font-weight: 700;
+  transition: 0.2s linear;
+  text-shadow: 2px -2px 5px #d4a276;
 }
