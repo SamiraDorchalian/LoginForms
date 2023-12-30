@@ -16,9 +16,7 @@ body {
   background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38")
     no-repeat center/ cover;
   border-radius: 10px;
-  box-shadow: 7px 6px 16px 1px #023047;
-  -webkit-box-shadow: 7px 6px 16px 1px #023047;
-  -moz-box-shadow: 7px 6px 16px 1px #023047;
+  box-shadow: 7px 3px 25px 1px #023047;
 }
 #chk {
   display: none;
@@ -49,9 +47,7 @@ input {
   border: none;
   outline: none;
   border-radius: 5px;
-  box-shadow: 3px 6px 10px 1px #023047;
-  -webkit-box-shadow: 3px 6px 10px 1px #023047;
-  -moz-box-shadow: 3px 6px 10px 1px #023047;
+  box-shadow: 3px 3px 10px 1px #023047;
 }
 button {
   width: 120px;
@@ -67,9 +63,7 @@ button {
   outline: none;
   border: none;
   border-radius: 5px;
-  box-shadow: 3px 6px 10px 1px rgba(0, 0, 0, 0.85);
-  -webkit-box-shadow: 3px 6px 10px 1px rgba(0.1, 0, 0, 0.15);
-  -moz-box-shadow: 3px 6px 10px 1px rgba(0.1, 0, 0, 0.85);
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.411);
   transition: 0.2s ease-in;
   cursor: pointer;
 }
